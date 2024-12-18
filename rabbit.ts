@@ -703,7 +703,10 @@ const main = async (xrax: string) => {
     console.log(real);
     console.log("link: " + real[0].file);
 
+    return { resp_json, real };
+
 }
 
+export { main };
 
-main('ow7UEonAAf1l'); //change this value to the embed-id you want to extract from
+//main('ow7UEonAAf1l'); //change this value to the embed-id you want to extract from
